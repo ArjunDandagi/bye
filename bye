@@ -1,4 +1,11 @@
 #!/bin/env bash 
+
+trap ctrl_c INT
+
+function ctrl_c() {
+        echo "\t SORRY BRUHHHH \t"
+}
+
 echo "Hi!! $(whoami) ,GOOD JOB BYEEEEE"
 sleep 3
 shutdown now 2>/dev/null 1>/dev/null  # SORRY LINUX USER

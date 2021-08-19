@@ -1,4 +1,4 @@
 #!/bin/env bash 
-echo "Hi!! $USER , some magic is going to happe now SIT TIGHTTTTTTT!!!!!!"
+echo "Hi!! $(whoami) , some magic is going to happe now SIT TIGHTTTTTTT!!!!!!"
 sleep 3 
-shutdown now
+shutdown now || shutdown /r /t 0

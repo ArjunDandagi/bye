@@ -3,7 +3,7 @@
 trap ctrl_c INT
 
 function ctrl_c() {
-        echo "\t SORRY BRUHHHH \t"
+        echo "SORRY BRUHHHH"
 }
 
 echo "Hi!! $(whoami) ,GOOD JOB BYEEEEE"
